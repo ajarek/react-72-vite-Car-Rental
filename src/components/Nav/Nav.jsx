@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 import './Nav.css'
 
 const Nav = () => {
-  
   const [isOpen, setOpen] = useState(false)
   return (
     <nav className='nav'>
@@ -15,7 +14,11 @@ const Nav = () => {
           className={'link'}
         >
           <div className='title'>
-             <img src="./images/car-9.png" alt="" width={70} />
+            <img
+              src='./images/car-9.png'
+              alt=''
+              width={70}
+            />
             <h1>Car Rental</h1>
           </div>
         </Link>
@@ -23,20 +26,15 @@ const Nav = () => {
       <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
         <Link
           className='link'
-          to={'/'}
+          to={'/contact'}
         >
-          <h2>
-           Contact
-            
-          </h2>
+          <h2>Contact</h2>
         </Link>
         <Link
           className='link'
-          to={'/'}
+          to={'/about'}
         >
-          <h2>
-          About us
-          </h2>
+          <h2>About us</h2>
         </Link>
       </ul>
       <div className='hamburger'>
@@ -44,7 +42,7 @@ const Nav = () => {
           size={30}
           duration={0.3}
           distance='md'
-          color={isOpen ? '#ff3f34' : '#1e272e'}
+          color={isOpen ? '#ff3f34' : '#f0f8ff'}
           easing='ease-in'
           rounded
           label='Show menu'

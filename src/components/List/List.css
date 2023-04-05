@@ -1,0 +1,28 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 0.5rem;
+}
+.list .card{
+border:1px solid;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem;
+cursor: pointer;
+transition: 0.5s ease-in-out;
+}
+.list .card:hover{
+  border: 1px solid #01ff07;
+  background-color:#323334 ;
+}
+.list .card .img{
+  width: 280px;
+  
+}
+.list .card .img img{
+  width: 100%;
+  object-fit: cover;
+  
+}
+

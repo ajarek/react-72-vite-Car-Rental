@@ -1,0 +1,76 @@
+[
+{
+"id": "1",
+"name":" Hyundaie",
+"src": "./images/car-1.png",
+"fuel":"Pb95",
+"people":"4",
+"description":"automatyczna klimatyzacja,inteligentny tempomat,czujniki parkowania,systemy radio z funkcją Bluetooth i nawigacją."
+},
+{
+  "id": "2",
+  "name":"Toyota",
+  "src": "./images/car-2.png",
+  "fuel":"Pb95",
+  "people":"4",
+  "description":"automatyczna klimatyzacja,inteligentny tempomat,czujniki parkowania,systemy radio z funkcją Bluetooth i nawigacją."
+  },
+  {
+    "id": "3",
+    "name":"Audi",
+    "src": "./images/car-3.png",
+    "fuel":"LPG",
+    "people":"4",
+    "description":"automatyczna klimatyzacja,inteligentny tempomat,czujniki parkowania,systemy radio z funkcją Bluetooth i nawigacją."
+    },
+    {
+      "id": "4",
+      "name":" Renault",
+      "src": "./images/car-4.png",
+      "fuel":"Pb95",
+      "people":"4",
+      "description":"automatyczna klimatyzacja,inteligentny tempomat,czujniki parkowania,systemy radio z funkcją Bluetooth i nawigacją."
+      },
+      {
+        "id": "5",
+        "name":"Mercedes",
+        "src": "./images/car-5.png",
+        "fuel":"ON",
+        "people":"6",
+        "description":"automatyczna klimatyzacja,inteligentny tempomat,czujniki parkowania,systemy radio z funkcją Bluetooth i nawigacją."
+        },
+        {
+          "id": "6",
+          "name":"Audi",
+          "src": "./images/car-6.png",
+          "fuel":"Pb95",
+          "people":"2",
+          "description":"automatyczna klimatyzacja,inteligentny tempomat,czujniki parkowania,systemy radio z funkcją Bluetooth i nawigacją."
+          },
+          {
+            "id": "7",
+            "name":"BMW",
+            "src": "./images/car-7.png",
+            "fuel":"Pb95",
+            "people":"4",
+            "description":"automatyczna klimatyzacja,inteligentny tempomat,czujniki parkowania,systemy radio z funkcją Bluetooth i nawigacją."
+            },
+            {
+              "id": "8",
+              "name":" Hyundaie",
+              "src": "./images/car-8.png",
+              "fuel":"EE",
+              "people":"4",
+              "description":"automatyczna klimatyzacja,inteligentny tempomat,czujniki parkowania,systemy radio z funkcją Bluetooth i nawigacją."
+              },
+              {
+                "id": "9",
+                "name":"Toyota",
+                "src": "./images/car-9.png",
+                "fuel":"Pb95",
+                "people":"4",
+                "description":"automatyczna klimatyzacja,inteligentny tempomat,czujniki parkowania,systemy radio z funkcją Bluetooth i nawigacją."
+                }
+
+
+]

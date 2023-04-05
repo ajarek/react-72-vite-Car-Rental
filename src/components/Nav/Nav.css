@@ -65,7 +65,7 @@
     top: -100vh;
     transition: transform 0.5s ease-in-out;
     z-index: 1;
-    background: #34e7e4;
+    background: #323334;
     height: 8rem;
     width: 100%;
   }
