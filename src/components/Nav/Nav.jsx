@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import logo from '/images/car-9.png'
 import Hamburger from 'hamburger-react'
 import { Link } from 'react-router-dom'
 import './Nav.css'
@@ -15,7 +15,7 @@ const Nav = () => {
         >
           <div className='title'>
             <img
-              src='./images/car-9.png'
+              src={logo}
               alt=''
               width={70}
             />

@@ -1,0 +1,23 @@
+.home-edit{
+  margin-top: 10vh;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 0.5rem;
+}
+.car,.form{
+  border: solid;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+}
+.car .img{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+.car .img img{
+ width: 80%;
+}

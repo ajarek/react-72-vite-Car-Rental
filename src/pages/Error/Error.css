@@ -1,0 +1,44 @@
+.error {
+  place-self: center;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+.error div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+.btn {
+  background-color: #edf6f8;
+  color: #dc3545;
+  padding: 0.5rem 1rem;
+  border: 5px double #dc3545;
+  font-size: 1rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  max-width: fit-content;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #dc3545;
+  color: #edf6f8;
+  border: 5px double #edf6f8;
+}
+.btn-dark {
+  color: #edf6f8;
+  border: 5px double #edf6f8;
+  background-color: black;
+}
+.btn-dark:hover {
+  color: black;
+  border: 5px double black;
+  background-color: #edf6f8;
+}
