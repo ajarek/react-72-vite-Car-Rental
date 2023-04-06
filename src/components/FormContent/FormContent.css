@@ -1,0 +1,59 @@
+.note .form {
+  width: 100%;
+  min-height:75vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+.note .form-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.note .form-input input,
+
+.note .form-input button {
+  height: 40px;
+  width: 100%;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  border: 0;
+  outline: 0;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+
+
+.note .form-input button {
+  padding: 0.5rem 1rem;
+  background: #f0f8ff;
+  border: 0;
+  border-bottom: 5px solid #d5d7da;
+  border-left: 2px solid #d5d7da;
+  
+  cursor: pointer;
+  position: relative;
+  font-size: 1.1rem;
+  color: #181a1b;
+}
+
+.note .form-input button:active {
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  top: 5;
+}
+.date-wrapper{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 0.5rem;
+}

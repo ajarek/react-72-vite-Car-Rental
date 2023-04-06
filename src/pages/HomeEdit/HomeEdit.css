@@ -5,7 +5,7 @@
   grid-template-columns: repeat(2,1fr);
   gap: 0.5rem;
 }
-.car,.form{
+.car,.car-form{
   border: solid;
   min-height: 80vh;
   display: flex;

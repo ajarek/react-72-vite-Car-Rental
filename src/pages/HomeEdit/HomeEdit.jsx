@@ -1,6 +1,7 @@
 import React from 'react'
 import { redirect, useParams, useLoaderData } from 'react-router-dom'
 import { homeLoader } from '../../pages/Home/Home'
+import FormContent from '../../components/FormContent/FormContent'
 import './HomeEdit.css'
 
 const HomeEdit = () => {
@@ -21,9 +22,16 @@ const HomeEdit = () => {
           <div className='fuel'>fuel: {car.fuel}</div>
           <div className='people'>number of people: {car.people}</div>
           <div className='description'>description: {car.description}</div>
+          <div className='description'>fee for 24h is: 100$</div>
+          <div className='description'>deposit: 250$</div>
         </div>
       </div>
-      <div className='form'>Form</div>
+      <div className='car-form'>
+        <FormContent
+        headerTitle={'Fill in the form'}
+        buttonName={'Order a car'}
+      />
+      </div>
     </div>
   )
 }
