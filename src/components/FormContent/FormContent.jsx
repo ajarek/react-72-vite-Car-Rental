@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react'
 import { Form } from 'react-router-dom'
 import './FormContent.css'
-const FormContent = ({ headerTitle, buttonName }) => {
+const FormContent = ({ headerTitle, buttonName,newId }) => {
   const focusRef = useRef()
 
   useEffect(() => {
@@ -79,7 +79,7 @@ const FormContent = ({ headerTitle, buttonName }) => {
           />
         </div>
         
-        
+        <input type="hidden" name="newId" value={newId} />
        
         <div className='form-input'>
           <button

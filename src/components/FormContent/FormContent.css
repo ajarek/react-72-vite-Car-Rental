@@ -1,12 +1,10 @@
 .note .form {
   width: 100%;
-  min-height:75vh;
-  
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  
 }
 
 .note .form-input {
@@ -16,10 +14,7 @@
   align-items: center;
 }
 
-
-
 .note .form-input input,
-
 .note .form-input button {
   height: 40px;
   width: 100%;
@@ -31,15 +26,13 @@
   border-radius: 4px;
 }
 
-
-
 .note .form-input button {
   padding: 0.5rem 1rem;
   background: #f0f8ff;
   border: 0;
   border-bottom: 5px solid #d5d7da;
   border-left: 2px solid #d5d7da;
-  
+
   cursor: pointer;
   position: relative;
   font-size: 1.1rem;
@@ -51,9 +44,9 @@
   border-left-width: 1px;
   top: 5;
 }
-.date-wrapper{
+.date-wrapper {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.5rem;
 }

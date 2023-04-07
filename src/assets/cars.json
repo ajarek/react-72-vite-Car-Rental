@@ -5,6 +5,8 @@
 "src": "/images/car-1.png",
 "fuel":"Pb95",
 "people":"4",
+"price":250,
+"deposit":1000,
 "description":"Automatic air conditioning, intelligent cruise control, parking sensors, radio systems with Bluetooth function and navigation."
 },
 {
@@ -13,6 +15,8 @@
   "src": "/images/car-2.png",
   "fuel":"Pb95",
   "people":"4",
+  "price":200,
+  "deposit":1000,
   "description":"Automatic air conditioning, intelligent cruise control, parking sensors, radio systems with Bluetooth function and navigation."
   },
   {
@@ -21,6 +25,8 @@
     "src": "/images/car-3.png",
     "fuel":"LPG",
     "people":"4",
+    "price":300,
+    "deposit":1000,
     "description":"Automatic air conditioning, intelligent cruise control, parking sensors, radio systems with Bluetooth function and navigation."
     },
     {
@@ -29,6 +35,8 @@
       "src": "/images/car-4.png",
       "fuel":"Pb95",
       "people":"4",
+      "price":200,
+      "deposit":1000,
       "description":"Automatic air conditioning, intelligent cruise control, parking sensors, radio systems with Bluetooth function and navigation."
       },
       {
@@ -37,6 +45,8 @@
         "src": "/images/car-5.png",
         "fuel":"ON",
         "people":"6",
+        "price":350,
+        "deposit":1200,
         "description":"Automatic air conditioning, intelligent cruise control, parking sensors, radio systems with Bluetooth function and navigation."
         },
         {
@@ -45,6 +55,8 @@
           "src": "/images/car-6.png",
           "fuel":"Pb95",
           "people":"2",
+          "price":300,
+          "deposit":1000,
           "description":"Automatic air conditioning, intelligent cruise control, parking sensors, radio systems with Bluetooth function and navigation."
           },
           {
@@ -53,6 +65,8 @@
             "src": "/images/car-7.png",
             "fuel":"Pb95",
             "people":"4",
+            "price":350,
+            "deposit":1400,
             "description":"Automatic air conditioning, intelligent cruise control, parking sensors, radio systems with Bluetooth function and navigation."
             },
             {
@@ -61,6 +75,8 @@
               "src": "/images/car-8.png",
               "fuel":"EE",
               "people":"4",
+              "price":250,
+              "deposit":1000,
               "description":"Automatic air conditioning, intelligent cruise control, parking sensors, radio systems with Bluetooth function and navigation."
               },
               {
@@ -69,6 +85,8 @@
                 "src": "/images/car-9.png",
                 "fuel":"Pb95",
                 "people":"4",
+                "price":300,
+                "deposit":1100,
                 "description":"Automatic air conditioning, intelligent cruise control, parking sensors, radio systems with Bluetooth function and navigation."
                 }
 

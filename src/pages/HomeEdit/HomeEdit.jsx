@@ -22,14 +22,15 @@ const HomeEdit = () => {
           <div className='fuel'>fuel: {car.fuel}</div>
           <div className='people'>number of people: {car.people}</div>
           <div className='description'>description: {car.description}</div>
-          <div className='description'>fee for 24h is: 100$</div>
-          <div className='description'>deposit: 250$</div>
+          <div className='description'>fee for 24h is: {car.price}$</div>
+          <div className='description'>deposit: {car.deposit}$</div>
         </div>
       </div>
       <div className='car-form'>
         <FormContent
         headerTitle={'Fill in the form'}
         buttonName={'Order a car'}
+        newId={id}
       />
       </div>
     </div>
