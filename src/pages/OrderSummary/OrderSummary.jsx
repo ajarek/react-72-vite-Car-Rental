@@ -37,8 +37,10 @@ const OrderSummary = () => {
   return (
     <div className='order-summary'>
      <p> <b>{info[0].newName}</b>, you have rented a <b>{car.name}</b> car. </p>
+     <div className="wrapper-date">
      <p>from <b>{info[0].dateStart}</b></p>
      <p>to <b>{info[0].dateEnd}</b></p>
+     </div>
      <p>Rental period up to <b>{date}</b> days.</p>
      <p>The place of rental and return is <b>{info[0].newCity}</b></p>
       <div className='img'>
@@ -47,13 +49,16 @@ const OrderSummary = () => {
             alt={car.name}
           />
         </div>
-      <div className='name'>{car.name}</div>
-          <div className='fuel'>fuel: {car.fuel}</div>
-          <div className='people'>number of people: {car.people}</div>
-          <div className='description'>description: {car.description}</div>
-          <div className='description'>fee for 24h is: {car.price}$</div>
-          <div className='description'>deposit: {car.deposit}$</div>
-
+      <p className='name'>{car.name}</p>
+      <div className="wrapper-date">
+          <p className='fuel'>fuel: {car.fuel}</p>
+          <p className='people'>number of people: {car.people}</p>
+          </div>
+          <p className='description'>description: {car.description}</p>
+          <div className="wrapper-date">
+          <p className='description'>fee for 24h is: {car.price}$</p>
+          <p className='description'>deposit: {car.deposit}$</p>
+          </div>
           <div className="paid">
             <h3>To be paid {car.price*date+car.deposit}$</h3>
           </div>

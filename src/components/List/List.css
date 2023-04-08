@@ -1,10 +1,12 @@
 .list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 0.5rem;
+  gap: 1rem;
 }
 .list .card{
-border:1px solid;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.9);
+  border-top: 1px solid   rgba(255,255,255,0.5);
+  border-left: 1px solid   rgba(255,255,255,0.5);
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -13,7 +15,6 @@ cursor: pointer;
 transition: 0.5s ease-in-out;
 }
 .list .card:hover{
-  border: 1px solid #01ff07;
   background-color:#323334 ;
 }
 .list .card .img{
