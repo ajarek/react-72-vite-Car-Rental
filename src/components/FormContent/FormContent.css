@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border: solid;
 }
 
 .note .form-input {
@@ -50,4 +51,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.5rem;
+}
+@media (max-width: 800px) {
+  .date-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

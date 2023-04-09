@@ -56,3 +56,14 @@
   border-left-width: 1px;
   top: 5;
 }
+@media (max-width: 400px) {
+  .order-summary {
+     width: 100%;
+    }
+    .order-summary .wrapper-date {
+      flex-direction: column;
+    }
+    .btn-paid {
+      align-self:center;
+    }
+}

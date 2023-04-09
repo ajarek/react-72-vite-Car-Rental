@@ -10,3 +10,8 @@
 .about p{
   margin-bottom: 1rem;
 }
+@media (max-width: 800px) {
+  .about{
+  padding: 10vh 0.5rem 2vh 0.5rem;
+  }
+}

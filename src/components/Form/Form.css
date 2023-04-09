@@ -19,6 +19,7 @@ form input {
   background-color: #f0f8ff;
   user-select: none;
   color: aliceblue;
+  margin-bottom: 0.5rem;
 }
 input[type='text']:focus {
   background-color: #151515;

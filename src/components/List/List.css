@@ -26,4 +26,15 @@ transition: 0.5s ease-in-out;
   object-fit: cover;
   
 }
+@media (max-width: 375px) {
+  .list{
+    grid-template-columns: repeat(1,1fr);
+   
+  }
+  .list .card .img{
+    width: 220px;
+    
+  }
+  
+}
 
