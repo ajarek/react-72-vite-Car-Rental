@@ -1,4 +1,12 @@
-import { FaGithub, FaTwitter, FaLinkedinIn, FaFacebook, FaPhoneAlt,FaMailBulk,FaMapMarkerAlt } from 'react-icons/fa'
+import {
+  FaGithub,
+  FaTwitter,
+  FaLinkedinIn,
+  FaFacebook,
+  FaPhoneAlt,
+  FaMailBulk,
+  FaMapMarkerAlt,
+} from 'react-icons/fa'
 import { Form } from '../../components/Form/Form'
 import './Contact.css'
 export const Contact = () => {
@@ -6,14 +14,24 @@ export const Contact = () => {
     <div className='contact'>
       <div className='left-wrapper'>
         <h1>Contact</h1>
-        <a className={'link'}
-          href='tel:+48573219230'><FaPhoneAlt/> +48 573 219 230</a>
-        <a className={'link'}
-          href='mailto:ajarek@poczta.onet.pl'><FaMailBulk/> ajarek@poczta.onet.pl</a>
-        <a href="#"><FaMapMarkerAlt/> Poland Kołobrzeg  </a>
+        <a
+          className={'link'}
+          href='tel:+48573219230'
+        >
+          <FaPhoneAlt /> +48 573 219 230
+        </a>
+        <a
+          className={'link'}
+          href='mailto:ajarek@poczta.onet.pl'
+        >
+          <FaMailBulk /> ajarek@poczta.onet.pl
+        </a>
+        <a href='#'>
+          <FaMapMarkerAlt /> Poland Kołobrzeg{' '}
+        </a>
       </div>
       <div className='right-wrapper'>
-      <p>Write a message to us.</p>
+        <p>Write a message to us.</p>
         <Form />
       </div>
       <div className='footer'>

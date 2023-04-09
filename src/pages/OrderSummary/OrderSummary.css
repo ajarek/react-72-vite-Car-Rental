@@ -1,13 +1,13 @@
 .order-summary {
   width: 375px;
   margin: 10vh auto 0 auto;
-  padding:1rem 0.5rem;
+  padding: 1rem 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  box-shadow: 10px 10px 20px rgba(0,0,0,0.9);
-  border-top: 1px solid   rgba(255,255,255,0.5);
-  border-left: 1px solid   rgba(255,255,255,0.5);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 4px;
 }
 
@@ -58,12 +58,12 @@
 }
 @media (max-width: 400px) {
   .order-summary {
-     width: 100%;
-    }
-    .order-summary .wrapper-date {
-      flex-direction: column;
-    }
-    .btn-paid {
-      align-self:center;
-    }
+    width: 100%;
+  }
+  .order-summary .wrapper-date {
+    flex-direction: column;
+  }
+  .btn-paid {
+    align-self: center;
+  }
 }

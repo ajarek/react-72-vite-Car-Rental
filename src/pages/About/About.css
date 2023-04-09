@@ -1,5 +1,5 @@
-.about{
-  padding:10vh;
+.about {
+  padding: 10vh;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -7,11 +7,11 @@
   align-items: center;
   font-size: 1.1rem;
 }
-.about p{
+.about p {
   margin-bottom: 1rem;
 }
 @media (max-width: 800px) {
-  .about{
-  padding: 10vh 0.5rem 2vh 0.5rem;
+  .about {
+    padding: 10vh 0.5rem 2vh 0.5rem;
   }
 }

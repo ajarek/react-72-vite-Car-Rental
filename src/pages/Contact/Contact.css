@@ -24,10 +24,10 @@
 .contact .left-wrapper a {
   font-size: 1.2rem;
   text-decoration: none;
-  color:#f0f8ff ;
+  color: #f0f8ff;
   margin-bottom: 1rem;
 }
-.right-wrapper p{
+.right-wrapper p {
   margin-left: 1rem;
   font-size: 1.2rem;
 }
@@ -41,7 +41,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.footer a{
+.footer a {
   text-decoration: none;
   color: #f0f8ff;
 }

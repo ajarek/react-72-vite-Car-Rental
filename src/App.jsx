@@ -5,7 +5,7 @@ import Contact from './pages/Contact/Contact'
 import About from './pages/About/About'
 import HomeEdit from './pages/HomeEdit/HomeEdit'
 import Error from './pages/Error/Error'
-import OrderSummary,{noteAction} from './pages/OrderSummary/OrderSummary'
+import OrderSummary, { noteAction } from './pages/OrderSummary/OrderSummary'
 import Main from './layouts/Main/Main'
 const router = createBrowserRouter([
   {
